@@ -1,0 +1,125 @@
+.recommend{
+	padding: 0 16px;
+	line-height: 50px;
+	color: #DBDBDB;
+	font-size: 0.31rem;
+	background-color: #fff;
+}
+.recommend span{
+	color: #272727;
+}
+.recommend_xjdj{
+	margin-top: 16px;
+	height: 75px; 
+	background-color: #fff;
+	background: url(../img/xjdj.png) no-repeat;
+	background-size:100% 100%;
+	padding: 0 16px;
+}
+.recommend_tjph{
+	color: #ff7645;
+	padding-top: 11px;
+	font-size: 0.44rem; 
+}
+.recommend_tjph img{
+	width: 17px;
+	height: 20px;
+	margin-bottom: -4px;
+}
+.hddj{
+	font-size: 0.22rem;
+	color: #7d7d7d;
+}
+.recommend_look{
+	width: 72px;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 17px;
+	color: #fff;
+	background:linear-gradient(to right,#00d4b6, #00bfc1);
+	border-radius:3px;
+}
+.recommend_ytj{
+	margin-top: 16px;
+	background-color: #fff;
+}
+.recommend_ytjtop{
+	border-bottom: 1px solid #dbdbdb;
+	padding: 0 16px;
+}
+.recommend_tjr{
+	line-height: 50px;
+	font-size: 0.30rem;
+}
+.recommend_tjr a{
+	color: #FF5555;
+}
+.recommend_tjr span{
+	color: #DBDBDB;
+	font-size: 0.22rem;
+}
+.recommend_togle{
+	font-size: 0.24rem;
+	text-align: right;
+	line-height: 50px;
+	color: #00d4b6;
+}
+.recommend_togle span{
+	float: right;
+	margin-bottom: -2px;
+}
+.recommend_nav{
+	padding: 0 0 16px 16px;
+}  
+.recommend_list{    
+	width: 0.8rem; 
+	float: left;  
+	margin-right:8px;
+	margin-top: 16px;
+}
+.recommend_list img{ 
+	width: 40px; 
+	height: 40px;
+	border-radius:100% ;
+	display: block;
+} 
+.recommend_nc{
+	width: 0.8rem;   
+	margin: auto;
+	font-size: 0.24rem;
+	line-height: 12px;
+	text-align: center;
+	color: #c0c0c0;
+	margin-top: 8px;
+}
+.recommend_yyjl{
+	margin: 0 16px;
+	border-top:1px dashed #DBDBDB;
+	padding-bottom: 16px;
+}
+.recommend_jllist{
+	padding-top: 15px;
+}
+.recommend_time{
+	height: 14px;  
+	width: 55px;
+	line-height: 12px;
+	text-align: center;
+	font-size: 0.2rem;
+	border: 1px solid #7d7d7d;
+	border-radius:3px ;
+	color: #7d7d7d;
+	float: left;
+}
+.recommend_right{  
+	line-height: 15px !important;
+	float: left;
+	font-size: 0.24rem;
+	margin-left: 8px; 
+	padding-bottom: 16px;
+	border-bottom: 1px dashed #dbdbdb; 
+	color: #7d7d7d;
+}
+.recommend_right a{ 
+	color: #44b4fe;
+}

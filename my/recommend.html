@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/cui.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/tuijian.css"/>
+		
+	</head>
+
+	<body>
+		<div class="mui-content" >
+			<div class="recommend">
+				 我的推荐人<span id="toptjr">马云</span> 
+			</div>
+			<div class="recommend_xjdj">  
+			 	<div class="recommend_tjph">推荐大神排行榜 <img src="../img/tanh.png"/> </div>
+			 	<div class="hddj">被推荐人开工即可获得千元现金奖励</div>
+			 	<div class="recommend_look">查看排行榜</div>
+			</div>
+			 
+			<div class="recommend_ytj">
+				<div class="recommend_ytjtop mui-row">
+					<div class="mui-col-xs-9">
+						<div class="recommend_tjr" >已推荐<a id="ytj"></a>人关注<span> 通过我的专属推荐码</span></div>
+					</div>  
+					<div class="mui-col-xs-3">
+						<div class="recommend_togle" id="clicktj">推荐记录<span class="iconfont icon-zhankai"></span></div>
+					</div>
+				</div>
+				
+				<!--关注头像-->
+				<ul class="recommend_nav" id="ytjtx"> 
+					<!--<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>-->
+					<div class="clear"></div>
+				</ul>
+				
+				<ul class="recommend_yyjl" id="ytjjl" style="display: none;">  
+					<!--<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div> 
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>
+					<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>
+					<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>-->
+				</ul> 
+			</div>  
+			
+			
+			<div class="recommend_ytj"> 
+				<div class="recommend_ytjtop mui-row">
+					<div class="mui-col-xs-9">
+						<div class="recommend_tjr"><a id="yuyuenumber"></a>已预约<span> 来源于我的专属推荐码</span></div>
+					</div>   
+					<div class="mui-col-xs-3"> 
+						<div class="recommend_togle" id="yyjl">预约记录<span class="iconfont icon-zhankai"></span></div>
+					</div>
+				</div>
+				 
+				<!--关注头像-->
+				<ul class="recommend_nav" id="yuyuetx"> 
+					<!--<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>-->
+					 
+					
+				</ul>
+				
+				<ul class="recommend_yyjl" id="yuyuejl"  style="display: none;">  
+					<!--<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>
+					<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>
+					<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>-->
+				</ul>
+			</div> 
+			
+			
+			<div class="recommend_ytj"> 
+				<div class="recommend_ytjtop mui-row">
+					<div class="mui-col-xs-9"> 
+						<div class="recommend_tjr"><a id="kgnumber"></a>已开工<span> 来源于我的专属推荐码</span></div>
+					</div>  
+					<div class="mui-col-xs-3">
+						<div class="recommend_togle" id="clickkg">开工记录<span class="iconfont icon-zhankai"></span></div>
+					</div>
+				</div>
+				
+				<!--关注头像-->
+				<ul class="recommend_nav" id="kgtx"> 
+					<!--<li class="recommend_list"> 
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>-->
+					  
+					<div class="clear"></div>
+				</ul>
+				
+				<ul class="recommend_yyjl" id="kglb" style="display: none;">  
+					<!--<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>  
+					<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>  -->
+				</ul>
+			</div> 
+			
+			<div class="recommend_ytj"> 
+				<div class="recommend_ytjtop mui-row">
+					<div class="mui-col-xs-9">
+						<div class="recommend_tjr"><a id="wgnumber">0</a>已完工<span> 来源于我的专属推荐码</span></div>
+					</div>  
+					<div class="mui-col-xs-3">
+						<div class="recommend_togle"  id="closejl">完工记录<span class="iconfont icon-zhankai"></span></div>
+					</div>
+				</div>
+				
+				<!--关注头像-->
+				<ul class="recommend_nav" id="closetx"> 
+					<!--<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					<li class="recommend_list">
+						<img src="../img/rzbj.png"/>
+						<div class="recommend_nc mui-ellipsis">马云大大</div>
+					</li>
+					 
+					<div class="clear"></div>-->
+				</ul>
+				
+				<ul class="recommend_yyjl" id="closelb" style="display: none;">  
+					<!--<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>
+					<li class="recommend_jllist">  
+						<div class="recommend_time">10月23号</div>
+						<div class="recommend_right"><a>疯帽子船长</a>扫描了您的专属推荐码并关注公众号扫描了您的专属推荐码并关注公众号</div>
+						<div class="clear"></div>
+					</li>  --> 
+				</ul>
+				
+				
+			</div> 
+		</div>  
+	</body> 
+
+</html>
+<script src="../js/mui.min.js"></script>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/tuijiantj.js" type="text/javascript" charset="utf-8"></script>
+ 
+<script type="text/javascript">
+	mui.init()
+	 
+	
+	
+</script>

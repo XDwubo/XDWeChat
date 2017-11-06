@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--<meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">-->
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cui.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<style type="text/css"> 
+			.mui-media{
+				border-bottom: 0 !important; 
+				border-top:1px solid #dbdbdb ;  
+			} 
+			.mui-grid-view.mui-grid-9{
+				margin-top: 30px;
+				border-top:0 !important;
+			}
+			.mui-media-body{
+				font-size: 14px !important;
+			}
+			/*.mui-table-view.mui-grid-view .mui-table-view-cell{
+				background: url(../img/daikaitong.png) no-repeat !important;
+				background-size:100% 100%  !important; 
+			}*/
+			.gdsp{
+				position: absolute;
+				top: 0;
+				left: 0; 
+			} 
+			.icon-shezhi{
+				color: #00D4B6; 
+				font-size: 20px;
+				position: absolute;
+				top: 15px;
+			}
+			.myimg{
+				border-radius:100% !important; 
+			}
+		</style> 
+	</head>  
+ 
+	<body> 
+		<div class="mui-content" style="background-color: #fff;"> 
+			<div class="mine_top">
+				<div class="mine_line">   
+					<div class="mine_tx">  
+						<img id="myimg" src= />
+					</div> 
+					<div class="mine_name" id="myname"></div>
+
+				</div> 
+			</div>
+			
+			<div class="renovation"> 
+				<div class="mui-row">
+					<div class="mui-col-xs-5 renovation_left">
+						<span>我的装修造价</span> 
+						<a>(元)</a> 
+					</div> 
+					<div class="mui-col-xs-2 renovation_center"><img src="../img/=.png"/> </div>
+					<div class="mui-col-xs-5 renovation_right">
+						<span class="renovation_leftm">999999</span>
+						<a>.00</a>  
+						<span class="mui-icon iconfont icon-jinru renovation_jr"></span>
+					</div>
+				</div>
+			</div> 
+			  
+ 			<div class="progress">
+ 				<div class="progress_jdt">
+ 					<div class="progress_wjd" id="myJdt">13</div>
+ 					<div class="progress_jdttop"></div>
+ 					<div class="progress_jdtl" id="jdtWidth"></div>
+ 				</div> 
+ 				 
+ 				<div class="progress_watch"> 
+ 					<span class="mui-pull-left">我的装修进度</span>
+ 					<a class="mui-pull-right" href="progress.html">查看详情</a>
+ 				</div>
+ 				
+ 			</div>
+ 			
+ 			<div id="openid">
+ 				 
+ 			</div>
+ 			<!--<div class="mine_row mui-row">
+ 				<div class="mui-col-xs-4 mine_list"> 
+ 					<img src="img/woderiji.png"/>
+ 					<p>我的日记</p>
+ 				</div>
+ 				<div class="mui-col-xs-4 mine_list">
+ 					<img src="img/woguanzhude.png"/>
+ 					<p>我的关注</p>
+ 				</div>
+ 				<div class="mui-col-xs-4 mine_list br0">
+ 					<img src="img/tousubaoxiu.png"/>
+ 					<p>投诉保修</p>
+ 				</div>
+ 				<div class="mui-col-xs-4 mine_list">
+ 					<img src="img/tuijiantongji.png"/>
+ 					<p>推荐统计</p>
+ 				</div>
+ 				<div class="mui-col-xs-4 mine_list">
+ 					<img src="img/tuijianma.png"/>
+ 					<p>推荐码</p>
+ 				</div>
+ 				<div class="mui-col-xs-4 mine_list br0">
+ 					<img src="img/wugongdishipin.png"/>
+ 					<p>工地视频</p>
+ 				</div> 
+ 			</div>-->  
+ 			
+ 			<ul class="mui-table-view mui-grid-view mui-grid-9" style="background-color: #fff;">
+		           
+	             <li class="mui-table-view-cell mui-media mui-col-xs-4  mine_gdsp">
+	            	<a href="#"> 
+	                    <img width="40px" src="../img/wugongdishipin.png"/>
+	                    <div class="mui-media-body">工地视频</div>
+	            	</a>
+	            	<div class="gdsp"><img width="30px" src="../img/daikaitong.png"/></div>
+	            </li> 
+	           <li class="mui-table-view-cell mui-media mui-col-xs-4 " id="myRj">
+                    <img width="40px" src="../img/woderiji.png"/> 
+                    <div class="mui-media-body">我的日记</div>
+	           </li>  
+	            <li class="mui-table-view-cell mui-media mui-col-xs-4 ">
+	            	<a href="../mygz.html">
+	                    <img width="40px" src="../img/woguanzhude.png"/>
+	                    <div class="mui-media-body">我的关注</div>
+	            	</a> 
+	            </li>  
+	            <li class="mui-table-view-cell mui-media mui-col-xs-4" id="clickTsbx">
+                    <img width="40px" src="../img/woguanzhude.png"/> 
+                    <div class="mui-media-body">投诉保修</div>
+	            </li> 
+	            <li class="mui-table-view-cell mui-media mui-col-xs-4 " id="tjtj">
+                    <img width="40px" src="../img/tuijiantongji.png"/>
+                    <div class="mui-media-body">推荐统计</div>
+	            </li>  
+	            <li class="mui-table-view-cell mui-media mui-col-xs-4 ">
+                  	<img width="40px" src="../img/tuijianma.png"/>
+                    <div class="mui-media-body">推荐码</div>
+	            </li> 
+	           
+	        </ul> 
+	         
+		    <div style="height: 8px;background-color: #ededed;"></div>
+		        
+			<ul id="list" class="mui-table-view mui-table-view-chevron" style="position: fixed;bottom: 0;width: 100%;">
+				<li class="mui-table-view-cell " id="setup_tz" style="height: 50px;line-height: 30px;font-size: 14px;">
+					<a class="mui-navigate-right" style="height: 50px;"> 
+						<span class="mui-icon iconfont icon-shezhi"></span>
+						<div style="display: block;position: absolute;top: 10px;left: 45px;">设置 </div>
+					</a> 
+				</li>
+			</ul> 
+			
+		</div>
+	</body>  
+
+</html>
+<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/my.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	mui.init()  
+	
+	
+
+	
+	
+	$(".renovation").click(function(){
+	 	location.href="decortecase.html"
+	});
+</script>

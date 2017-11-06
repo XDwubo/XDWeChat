@@ -1,0 +1,225 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/style.css",
+			"css/cui.css",
+			"fonts/mui.ttf",
+			"img/xgt1.png",
+			"img/xgt2.png",
+			"img/xgt4.png",
+			"img/xgt3.png",
+			"img/topsj.png",
+			"img/xsj.png",
+			"js/jquery.js",
+			"decoration .html",
+			"js/common.js",
+			"js/template-native.js",
+			"gdgb.json",
+			"css/iconfont.css",
+			"worksite.html",
+			"decorate .html",
+			"mine.html",
+			"js/lookcase.js",
+			"ourteam.html",
+			"staff_xx.html",
+			"my/progress.html"
+		],
+		"refer": [
+			"decoration .html",
+			"worksite.html",
+			"decorate .html",
+			"mine.html",
+			"ourteam.html",
+			"staff_xx.html",
+			"my/progress.html"
+		]
+	},
+	"decoration .html": {
+		"resources": [
+			"img/banner.png",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/style.css",
+			"css/cui.css",
+			"img/gdgb.png",
+			"fonts/mui.ttf",
+			"img/diwen.png",
+			"img/tx.png",
+			"img/yl1.png",
+			"css/preview.css",
+			"img/yl3.png",
+			"img/yl2.png",
+			"js/mui.zoom.js",
+			"js/mui.previewimage.js",
+			"img/xgt1.png",
+			"index.html",
+			"css/iconfont.css",
+			"js/jquery.js",
+			"js/common.js"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"worksite.html": {
+		"resources": [
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"css/style.css",
+			"css/cui.css",
+			"js/mui.min.js",
+			"index.html",
+			"img/xgt2.png",
+			"img/tx.png",
+			"img/gdfbt.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"decorate .html": {
+		"resources": [
+			"img/zhuangxiuliucheng.png",
+			"img/yl1.png",
+			"css/preview.css",
+			"img/yl3.png",
+			"img/rztx.png",
+			"css/style.css",
+			"img/fuwutuandui.png",
+			"img/rrj.png",
+			"img/rzbj.png",
+			"img/rijidi.png",
+			"img/yl2.png",
+			"img/rzxtx.png",
+			"img/xgt1.png",
+			"js/mui.zoom.js",
+			"img/top.png",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"js/mui.previewimage.js",
+			"img/zhuangxiuqingdan.png",
+			"img/rijimorenbanner.png",
+			"img/tx.png",
+			"img/rijitou.png",
+			"img/chakantuku.png",
+			"css/cui.css",
+			"js/mui.min.js",
+			"js/jquery.js",
+			"index.html",
+			"diarydetails.html"
+		],
+		"refer": [
+			"index.html",
+			"diarydetails.html"
+		]
+	},
+	"diarydetails.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"css/style.css",
+			"js/jquery.js",
+			"css/cui.css",
+			"decorate .html"
+		],
+		"refer": [
+			"decorate .html"
+		]
+	},
+	"mine.html": {
+		"resources": [
+			"img/wujindu.png",
+			"fonts/mui.ttf",
+			"css/style.css",
+			"img/tuijiantongji.png",
+			"img/rzbj.png",
+			"img/woguanzhude.png",
+			"img/woderiji.png",
+			"img/tousubaoxiu.png",
+			"img/metx.png",
+			"img/tuijianma.png",
+			"img/line.png",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"img/\u003d.png",
+			"img/wugongdishipin.png",
+			"img/daikaitong.png",
+			"css/cui.css",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"ourteam.html": {
+		"resources": [
+			"img/bdphone.png",
+			"img/jzgw.png",
+			"css/iconfont.css",
+			"img/rztx.png",
+			"css/mui.min.css",
+			"css/style.css",
+			"css/cui.css",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"staff_xx.html": {
+		"resources": [
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"css/style.css",
+			"img/gdfbt.png",
+			"css/cui.css",
+			"index.html",
+			"img/jzgw.png",
+			"img/stallpj.png",
+			"img/stallal.png",
+			"img/tx.png",
+			"img/stallfs.png",
+			"js/common.js"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"stallphoto.html": {
+		"resources": [
+			"img/stallpt.png",
+			"img/stallpt2.png",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"css/style.css",
+			"css/cui.css"
+		]
+	},
+	"my/progress.html": {
+		"resources": [
+			"img/wujindu.png",
+			"css/progress.css",
+			"img/yl1.png",
+			"img/yl3.png",
+			"img/fuwutuandui.png",
+			"img/jinduhao.png",
+			"img/yl2.png",
+			"img/rzxtx.png",
+			"img/xgt1.png",
+			"js/common.js",
+			"img/wendang.png",
+			"img/top.png",
+			"img/zhuangxiuqingdan.png",
+			"img/gdfbt.png",
+			"img/tx.png",
+			"img/chakantuku.png",
+			"css/mui.min.css",
+			"css/style.css",
+			"css/iconfont.css",
+			"css/cui.css"
+		]
+	}
+}

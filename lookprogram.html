@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/cui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+    <style type="text/css">
+    	.mui-scroll-wrapper{
+    		top: 46px; 
+    	}
+    </style>   
+       
+</head> 
+<body style="background-color: #fff;" >
+	<div class="mui-content" style="background-color: #fff;" > 
+		<!--选择--> 
+		<div class="mui-row" style="border-bottom: 1px solid #DBDBDB;">     
+			<div class="mui-col-xs-4 ">
+				<div class="drop-down-br">
+					<span class="mui-icon iconfont icon-xiala drop-down-sj"></span>
+					<select class="drop-down" id="Styles">    
+						<option value="">装修风格</option>
+						<!--<option value="">欧美</option>   
+						<option value="">时尚</option>   -->
+					</select> 
+				</div> 
+			</div>   
+			<div class="mui-col-xs-4">  
+				<div class="drop-down-br">
+					<span class="mui-icon iconfont icon-xiala drop-down-sj"></span>
+					<select class="drop-down" id="House">  
+						<option value=" ">户型</option>
+						<!--<option value="">三室一厅</option> 
+						<option value="">三室两厅</option>  -->
+					</select>  
+				</div>  
+			</div>
+			<div class="mui-col-xs-4">  
+				<div class="drop-down-br br0">
+					<span class="mui-icon iconfont icon-xiala drop-down-sj"></span>
+					<select class="drop-down" id="Area" > 
+						<option value="">面积 (㎡)</option>  
+						<option value="10-100">10-100</option>  
+						<option value="100-200">100-200</option> 
+						<option value="300-500">100-200</option>
+						<option value="300-500">10-1000</option>
+					</select>  
+				</div>
+			</div> 
+		</div>   
+		<div class="" id="">    
+			<div class="">
+				<div id="" class="">
+					<ul class="case-content-nav" id="shangla">
+						<!--<li class="case-content-list"> 
+							<a class="case-content-list-a">  
+								<img src="img/xgt1.png"/>
+								<div class="case-content-list-div">
+									<div class="case-content-list-sj"><img src="img/topsj.png"/></div>
+									<div class="case-content-list-title">蔚蓝卡地亚·花园城</div>
+									<div class="case-content-list-fg">
+										<span>240㎡</span>
+										<span>欧式风格</span>
+										<span>四室两厅二卫</span> 
+									</div>
+								</div> 
+							</a>
+						</li> 
+						<li class="case-content-list">
+							<a class="case-content-list-a">
+								<img src="img/xgt2.png"/>
+								<div class="case-content-list-div">
+									<div class="case-content-list-sj"><img src="img/topsj.png"/></div>
+									<div class="case-content-list-title">蔚蓝卡地亚·花园城</div>
+									<div class="case-content-list-fg">
+										<span>240㎡</span>
+										<span>欧式风格</span>
+										<span>四室两厅二卫</span>
+									</div>
+								</div> 
+							</a>
+						</li>
+						<li class="case-content-list">
+							<a class="case-content-list-a">
+								<img src="img/xgt3.png"/>
+								<div class="case-content-list-div">
+									<div class="case-content-list-sj"><img src="img/topsj.png"/></div>
+									<div class="case-content-list-title">蔚蓝卡地亚·花园城</div>
+									<div class="case-content-list-fg">
+										<span>240㎡</span>
+										<span>欧式风格</span>
+										<span>四室两厅二卫</span>
+									</div>
+								</div> 
+							</a>
+						</li>
+						<li class="case-content-list">
+							<a class="case-content-list-a">
+								<img src="img/xgt4.png"/>
+								<div class="case-content-list-div">
+									<div class="case-content-list-sj"><img src="img/topsj.png"/></div>
+									<div class="case-content-list-title">蔚蓝卡地亚·花园城</div>
+									<div class="case-content-list-fg">
+										<span>240㎡</span>
+										<span>欧式风格</span>
+										<span>四室两厅二卫</span>
+									</div>
+								</div> 
+							</a>
+						</li>-->
+						
+					</ul>
+				</div>		
+				<div class="loadmore">
+					<a class="loadmore_a">正在加载</a>
+				</div>  
+			</div> 
+		</div>   
+		
+		<div class="clear"></div>
+		<div class="" style="height: 50px;"></div> 
+		
+		<div class="older" id="older">  
+			<span>点击预约获取免费设计</span>  
+			<a href="my/progress.html">预约</a>
+		</div> 
+	</div>  
+	 
+	   
+</body> 
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/template-native.js" type="text/javascript" charset="utf-8"></script> 
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/lookcase.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	//预约滑动显示隐藏
+	document.addEventListener("touchmove",function(){
+		document.getElementById("older").style.display="none";
+	})   
+	  
+	document.addEventListener("touchend",function(){
+		document.getElementById("older").style.display="block";
+	});
+</script>  

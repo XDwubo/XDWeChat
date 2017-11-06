@@ -1,0 +1,363 @@
+.progress_jd{
+	height: 170px;
+	background: url(../img/gdfbt.png) no-repeat;
+	background-size:100% 100% ; 
+}
+.progress_top{ 
+	padding: 16px 0 0 16px;
+}
+.progress_topnc{
+	font-size: 0.24rem;
+	color: #4482ae;
+} 
+.progress_topmc{
+	
+	font-size: 0.28rem;
+	color: #fff;
+}
+ .progress_jdrow{
+ 	height: 60px;
+ 	text-align: center;
+ 	color: #fff;
+ 	margin-top: 25px;
+ }
+.progress_jdrow span{
+	font-size:0.2rem ;
+	color: #8e8789; 
+}
+.progress_jdrow div div{
+	font-size: 0.28rem;
+}
+.daohang{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #7D7D7D;
+}
+.daohang img{
+	width: 19px; 
+	height: 17px;
+	margin-bottom: -4px;
+	margin-right: 4px;
+}
+.daohang div{
+	font-size: 0.28rem;
+}
+.speed{
+	background-color: #ededed;
+	position: relative;
+} 
+ .arrow-up {
+    width:0; 
+    height:0; 
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-top:8px solid #fff;
+	margin-left: 6px;     
+}  
+.speed_list{ 
+	border-left: 2px solid #fff;
+	margin-left: 13px;
+	margin-top: -2px;
+	padding-top: 12px;
+	padding-bottom: 16px;
+}
+.speed_tits{ 
+	position: relative;
+	padding-right: 16px;
+	padding-left: 7px;
+}
+.speed_titsa{
+	display: block; 
+	height: 6px;
+	width: 6px;
+	background-color: #FF5555;
+	border-radius:100% ;
+	float: left;
+	margin-left: -11px;
+	margin-top: 8px;
+}
+.speed_tits_span{
+	font-size: 0.24rem;
+	background-color: #FF5555;
+	color: #fff;
+	border-radius:20px ; 
+	padding: 0 8px;
+	font-style: normal !important; 
+} 
+.speed_tits i{
+	font-style: normal;
+	margin-left: 7px;
+	font-size: 0.28rem;
+}
+.speed_tits b{
+	font-weight: normal;
+	font-size: 0.20rem;
+	background-color: #FF5555;
+	color: #fff;
+	border-radius:3px ;
+	float: right;
+	padding: 1px 2px;
+	height: 13px;
+	line-height: 13px;
+	margin-top: 5px;
+}
+.speed_wsx{ 
+	height: 50px;
+	text-align: center;
+	background-color: #fff;
+	line-height: 50px;
+	color: #7d7d7d;
+	font-size: 0.28rem;
+	border: 1px solid #dbdbdb;
+	border-radius:3px ;
+	margin: 16px 16px 0 7px;
+} 
+.speed_div{
+	border-left: 2px solid #ededed;
+	margin-left: 13px;
+	padding-top: 12px;
+	padding-top: 32px;
+}
+.speed_div1{
+	padding-right: 37px;
+}
+.speed_div{
+	padding-right: 16px;
+} 
+.lcb{
+	position: absolute;
+	height: 13px;
+	width: 13px;
+	background-color: #dbdbdb;
+	border-radius:100% ;
+	font-size: 0.16rem; 
+	line-height: 15px; 
+	text-align: center;
+	color: #fff; 
+	float: left;
+	margin-left: -7px;
+}
+.speed_div1 span{
+	float: left;
+	font-size: 0.26rem;
+	margin-left: 13px;
+	line-height: 16px;
+}
+.speed_types{
+	font-size:0.24rem;
+	line-height: 12px;
+	float: right;
+	color: #b6b6b6;
+	border: 1px solid #b6b6b6;
+	border-radius:3px ;
+	padding: 2px 2px 0 2px;
+}
+.loadmore{
+	padding: 24px 0;
+	background-color: #FFF;
+} 
+.loadmore_a{
+	display: block;
+	height: 35px;
+	width: 100px; 
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #b6b6b6;
+	border-radius:26px ; 
+	margin: auto;
+	color: #7d7d7d; 
+	font-size: 0.3rem;
+	padding: 0;
+}
+
+.speed_wsxs{
+	background-color: #fff;
+	color: #7d7d7d;
+	font-size: 0.28rem;
+	/*border: 1px solid #DBDBDB;*/
+	border-radius:3px ;
+	margin: 16px 16px 0 7px;
+	border-bottom: 1px solid #DBDBDB;
+} 
+.decorate_fxrz{
+	margin-top: 5px;
+	margin-right: 8px; 
+}
+.decorate_fxwz{ 
+	margin-left: 18px !important;
+	color: #00D4B6;
+} 
+.decorate_fxl{
+	width: 80px;
+}
+.decorate_zxcont_bt span{
+	display: block; 
+	height: 14px; 
+	font-size: 10px; 
+	line-height: 14px; 
+	border: 1px solid #FE5555;
+	color: #FE5555;
+	float: left;
+	text-align: center; 
+	border-radius:5px ;
+	margin-right: 6px;
+	margin-top: 4px;
+	padding-top: 1px;
+} 
+.decorate_rjtop{ 
+	background: none;
+}
+.sj{
+	height: 16px;
+	width: 16px;
+	background: url(../img/jinduhao.png) no-repeat;
+	background-size:100% 100% ;
+	right: 0;
+	font-size: 0.16rem;
+}
+.sj a{
+	float: right;
+	margin-right: 2px; 
+	margin-top: -5px;
+	color: #fff;
+}
+.speed_more{
+	border: 1px solid #DBDBDB;
+}
+.speed_gcqr{
+	background-color: #f3f4f7;
+	padding: 16px 16px 20px 16px;
+}
+.hb_bound{
+	display: block;
+	font-style: normal;
+	list-style: none;
+	color: #7d7d7d; 
+	height: 0.78rem;
+	border-radius:0.78rem ;
+	text-align: center; 
+	color: #fff;
+	line-height: 0.78rem;
+	background:linear-gradient(to right,#00d4b6, #00bfc1) ;
+	font-size: 0.32rem;
+}
+.hb_bounddj{
+	background:linear-gradient(to right,#DBDBDB, #DBDBDB) !important;
+}
+.hb_bound:active{ 
+	color: #fff;
+} 
+
+.hb_bounds{
+	color: #f4f4f4;
+	background:linear-gradient(to right,#8ee3d7, #8edbdb) ;
+}
+.speed_qrnr{
+	font-size: 0.24rem;
+	color: #FF5555;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+.speed_qr{
+	padding-right: 16px;
+}
+.speed_qr1{
+	padding-left: 13px;
+}
+.speed_titsas{
+	display: block;  
+	height: 6px;
+	width: 6px;
+	background-color: #FF5555;
+	border-radius:100% ;
+	float: left;
+	margin-left: -18px; 
+	margin-top: 8px;
+}
+.speed_gcqrsp{
+	font-size: 0.30rem;
+}
+.mc{
+	position: fixed;
+	top: 40%;
+	width: 80%;
+	margin-left: 10%;
+	background-color: #fff;
+	z-index: 501;
+	border-radius: 3px;
+}
+.mcnr{
+	padding: 40px 30px; 
+	font-size:0.24rem;
+	line-height: 15px;
+}
+.mcnr a{ 
+	color: #FF5555;
+}
+.qx,.qd{ 
+	text-align: center;
+	border-top: 1px solid #DBDBDB;
+	line-height: 50px;
+}
+.qx{ 
+	border-right:1px solid #DBDBDB ;
+}
+.qd{
+	color: #00D4B6;
+}
+.iknown{
+	color: #00D4B6;
+	text-align: center;
+	line-height: 50px;
+	border-top: 1px solid #DBDBDB;
+}
+.look_fa{
+	width: 100%; 
+	text-align: center;  
+	line-height: 30px;
+	border: 1px solid #00D4B6;
+	color: #00D4B6;
+	border-radius:40px ;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.yswz{
+	color: #272727; 
+	line-height: 15px;
+}
+.speed_typess{
+	font-size:0.24rem; 
+	line-height: 13px;
+	float: right; 
+	color: #fff;
+	background-color: #FF5555;
+	border-radius:3px ;
+	padding: 2px 2px 0 2px;
+	border: 0;
+}
+.wc{
+	background-color: #41b3fe;
+}
+.speed_wc{
+	line-height: 13px;
+	color: #fff;
+	background-color: #41b3fe;
+	border: 0;
+}
+.shilt{
+	width: 80% !important;
+	height: 14px !important;
+	position: absolute;
+	top: 4px;
+}
+.sgt{
+	height: 14px !important;
+	position: absolute;
+	width: 40% !important;
+	top: 4px;
+}
+.zxd{
+	font-size: 0.24rem;
+	text-align: center;
+}

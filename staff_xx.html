@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>员工资料</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/cui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		 <style type="text/css">
+			#worksites_top {
+				position: absolute;
+				width: 0;   
+				height: 0;   accelerator: ;			    
+				border-left: 4px solid transparent;  
+			    border-right: 4px solid transparent;  
+			    border-bottom: 4px solid #fff; 
+				left: 20px;
+				top: -4px;
+			}
+			#worksites_first {
+				position: relative;
+				height: 50px;
+				width: 100%; 
+				background-color: #fff;
+				padding: 0 10px;
+				
+			}
+			
+			#worksites_tops {
+				position: absolute;
+				width: 0;   
+				height: 0;  	    
+				border-left: 6px solid transparent;  
+			    border-right: 6px solid transparent;  
+			    border-bottom: 6px solid #f3f4f7; 
+				left: 12px;
+				top: -5px;  
+			} 
+			#worksites_firsts {
+				position: relative;
+				height: 62px;
+				width: 100%; 
+				background-color: #f3f4f7;
+				padding: 0 10px;
+				margin-top: 8px;
+				padding: 8px;
+			}
+			.icon-shipin{
+				font-size: 30px;
+				color: #00D4B6;
+			}
+			.mui-table-view-cell:after{
+				background-color: #FFF;
+			}
+			.mui-table-view .mui-media-object {
+			    line-height: 42px;
+			    max-width: 30px;
+			    height: 30px;
+			    border-radius: 100%;
+		    }
+		    .mui-table-view-cell{
+		    	height: 50px;
+		    	padding: 10px 0 0 16px;
+		    }
+		    .mui-table-view .mui-media, .mui-table-view .mui-media-body{
+		    	font-size: 14px;
+		    	color: #272727;
+		    }
+		    .mui-table-view{
+		    	padding-bottom: 20px;
+		    }
+		    .mui-table-view:after{
+		    	background-color: #fff;
+		    }
+		</style> 
+	</head>
+  
+	<body style="background-color: #fff;">
+		<div class="mui-content" style="background-color: #fff;padding-bottom: 50px;">
+			<div class="staff_top">
+				<div class="staff_topyy">
+					<div class="mui-row stall_row">
+						<div class="mui-col-xs-10 stall_col">
+							<img class="stall_tx" src="img/gdfbt.png"/>
+							<div class="stall_zl">
+								<i>马云</i>
+								<a class="stall_a">业务员</a> 
+								<a>3年经验</a>
+								<div class="mui-ellipsis-2"> 
+									种一棵树最好的时间是十年前，其次 是现在。其次 是现在。
+								</div>
+							</div>
+						</div>
+						<div class="mui-col-xs-2">
+							<div class="stall_cols">
+								<span class="mui-icon iconfont icon-weiguanzhu guanzhu"></span><a>关注</a>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div> 
+			
+			<div class="stall_tab"> 
+				<a href="#one" class="stall_one active" id="1">  
+					<span class="stall_tabwz1">案例<i class="stall_tabsz">12</i></span>
+					<div class=""></div>
+				</a> 
+				<a href="#twe" class="stall_one" id="2"> 
+					<span class="stall_tabwz2">评价<i class="stall_tabsz">123</i></span>
+					<div class=""></div>
+				</a> 
+				<a href="#three" class="stall_one br0" id="3"> 
+					<span class="stall_tabwz3">粉丝<i class="stall_tabsz">1234</i></span>
+					<div class=""></div>
+				</a>
+			</div>
+			 
+			<div class="tab">
+				<div class="stall">
+					<ul class="worksites_nav" id="employeeAl"> 
+						<!--<li class="worksites_list"> 
+							<div class="worksites_img pr">  
+								<div class="worksite_nic mui-row">
+									 <div class="mui-col-xs-11">
+									 	<div class="worksite_nictx mui-pull-left">
+									 		<img src="img/tx.png"/>
+									 	</div>
+									 	<div class="mui-pull-left worksite_nicm">
+									 		<span class="worksite_nicspan">不吃鱼的猫</span>
+									 		<div class="worksite_jdnc">
+									 			<span class="worksite_gdm">万科金域蓝湾五期</span>
+									 			<span class="worksite_gcjd">泥作工程阶段</span>
+									 		</div> 
+									 	</div>
+									 </div>
+									 <!--<div class="mui-col-xs-1">
+									 	<span class="mui-icon iconfont icon-shipin"></span>
+
+								</div>
+								<img class="imgwh" src="img/gdfbt.png"/>
+							</div>
+							<div id="worksites_first" class="mui-row"> 
+							    <span id="worksites_top"></span>
+							    <div class="mui-col-xs-8 worksite_span">
+							    	<span>欧式风格</span>
+							    	<span>三室两厅一厨两卫</span>
+							    	<span>180.96万元</span> 
+							    	<span>110㎡</span> 
+							    </div>  
+							    <div class="mui-col-xs-4 worksite_liul">
+							    	<div class="mui-pull-left"> 
+						    			<span class="mui-icon iconfont icon-liulan"></span>
+							    		<a>220</a>
+							    	</div>
+									<div class="mui-pull-right">
+										<span class="mui-icon iconfont icon-zan"></span>
+										<a>220</a>
+									</div>	
+						    		
+							    </div>
+							</div>
+						</li>   
+						 
+						<li class="worksites_list">
+							<div class="worksites_img pr"> 
+								<div class="worksite_nic mui-row">
+									 <div class="mui-col-xs-11">
+									 	<div class="worksite_nictx mui-pull-left">
+									 		<img src="img/tx.png"/>
+									 	</div>
+									 	<div class="mui-pull-left worksite_nicm">
+									 		<span class="worksite_nicspan">不吃鱼的猫</span>
+									 		<div class="worksite_jdnc">
+									 			<span class="worksite_gdm">万科金域蓝湾五期</span>
+									 			<span class="worksite_gcjd">泥作工程阶段</span>
+									 		</div> 
+									 	</div>
+									 </div>
+									 <div class="mui-col-xs-1">
+									 	<span class="mui-icon iconfont icon-shipin"></span>
+									 </div> 
+								</div>
+								<img class="imgwh" src="img/gdfbt.png"/>
+							</div>
+							<div id="worksites_first" class="mui-row"> 
+							    <span id="worksites_top"></span>
+							    <div class="mui-col-xs-8 worksite_span">
+							    	<span>欧式风格</span>
+							    	<span>三室两厅一厨两卫</span>
+							    	<span>180.96万元</span> 
+							    	<span>110㎡</span>
+									
+							    </div>
+							    <div class="mui-col-xs-4 worksite_liul">
+							    	<div class="mui-pull-left"> 
+						    			<span class="mui-icon iconfont icon-liulan"></span>
+							    		<a>220</a>
+							    	</div>
+									<div class="mui-pull-right">
+										<span class="mui-icon iconfont icon-zan"></span>
+										<a>220</a>
+									</div>	
+						    		
+							    </div>
+							</div>
+						</li>  
+						
+						<li class="worksites_list">
+							<div class="worksites_img pr"> 
+								<div class="worksite_nic mui-row">
+									 <div class="mui-col-xs-11">
+									 	<div class="worksite_nictx mui-pull-left">
+									 		<img src="img/tx.png"/>
+									 	</div>
+									 	<div class="mui-pull-left worksite_nicm">
+									 		<span class="worksite_nicspan">不吃鱼的猫</span>
+									 		<div class="worksite_jdnc">
+									 			<span class="worksite_gdm">万科金域蓝湾五期</span>
+									 			<span class="worksite_gcjd">泥作工程阶段</span>
+									 		</div> 
+									 	</div>
+									 </div>
+									 <div class="mui-col-xs-1">
+									 	<span class="mui-icon iconfont icon-shipin"></span>
+									 </div> 
+								</div>
+								<img class="imgwh" src="img/gdfbt.png"/>
+							</div>
+							<div id="worksites_first" class="mui-row"> 
+							    <span id="worksites_top"></span>
+							    <div class="mui-col-xs-8 worksite_span">
+							    	<span>欧式风格</span>
+							    	<span>三室两厅一厨两卫</span>
+							    	<span>180.96万元</span> 
+							    	<span>110㎡</span>
+									
+							    </div>
+							    <div class="mui-col-xs-4 worksite_liul">
+							    	<div class="mui-pull-left"> 
+						    			<span class="mui-icon iconfont icon-liulan"></span>
+							    		<a>220</a>
+							    	</div>
+									<div class="mui-pull-right">
+										<span class="mui-icon iconfont icon-zan"></span>
+										<a>220</a>
+									</div>	
+						    		
+							    </div>
+							</div>
+						</li> -->
+					</ul>
+				</div>
+				 
+				
+				<!--<div class="stall" style="display: none;">
+					<ul class="stall_pj">
+						<li class="stall_pjlist pr">
+							<div class="stall_pjright">
+								<div class="stall_pjtx"> 
+									<img class="imgwh" src="img/tx.png"/>
+								</div>
+								<div class="stall_pjname">
+									<div class="stall_zjs">
+										<a>装修小王子</a> 
+										<span class="mui-pull-right">今天</span>
+									</div>
+									<div class="stall_pjcont" >
+										设计不错设计不错设计不错设计不错
+									</div>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+							
+							<div id="worksites_firsts" class="stall_zs"> 
+							    <span id="worksites_tops"></span>
+								<img class="stall_zsimg" src="img/gdfbt.png"/>	
+								<div>
+									<div class="stall_mygc">明宇广场</div>
+									<div class="case-content-list-fg">
+										<span>240㎡</span>
+										<span>欧式风格</span>
+										<span>四室两厅二卫</span>
+										<span>108.96万元</span>
+									</div>
+								</div> 
+							</div>
+						</li>
+						
+						<li class="stall_pjlist pr">
+							<div class="stall_pjright">
+								<div class="stall_pjtx"> 
+									<img class="imgwh" src="img/tx.png"/>
+								</div>
+								<div class="stall_pjname">
+									<div class="stall_zjs">
+										<a>装修小王子</a> 
+										<span class="mui-pull-right">昨天</span>
+									</div>
+									<div class="stall_pjcont" >
+										设计不错设计不错设计不错设计不错
+									</div>
+								</div> 
+							</div>
+							<div style="clear: both;"></div>
+							
+							<div id="worksites_firsts" class="stall_zs"> 
+							    <span id="worksites_tops"></span>
+								<img class="stall_zsimg" src="img/gdfbt.png"/>	
+								<div>
+									<div class="stall_mygc">明宇广场</div>
+									<div class="case-content-list-fg">
+										<span>240㎡</span>
+										<span>欧式风格</span>
+										<span>四室两厅二卫</span>
+										<span>108.96万元</span>
+									</div>
+								</div> 
+							</div>
+						</li>
+						
+						<li class="stall_pjlist pr">
+							<div class="stall_pjright">
+								<div class="stall_pjtx"> 
+									<img class="imgwh" src="img/tx.png"/>
+								</div>
+								<div class="stall_pjname">
+									<div class="stall_zjs">
+										<a>装修小王子</a> 
+										<span class="mui-pull-right">2017.09.22  00:24</span>
+									</div>
+									<div class="stall_pjcont" >
+										设计不错设计不错设计不错设计不错
+									</div>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+							
+							<div id="worksites_firsts" class="stall_zs"> 
+							    <span id="worksites_tops"></span>
+								<img class="stall_zsimg" src="img/gdfbt.png"/>	
+								<div>
+									<div class="stall_mygc">明宇广场</div>
+									<div class="case-content-list-fg">
+										<span>240㎡</span>
+										<span>欧式风格</span>
+										<span>四室两厅二卫</span>
+										<span>108.96万元</span>
+									</div>
+								</div>  
+							</div> 
+						</li>
+					</ul> 
+				</div> 
+				 
+				<div class="stall" style="display: none;">
+					<ul class="mui-table-view"> 
+						<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-left" src="img/gdfbt.png">
+								<div class="mui-media-body" style="height: 40px;border-bottom: 1px solid #DBDBDB;">
+									幸福
+								</div>
+							</a>
+						</li> 
+						<li class="mui-table-view-cell mui-media">
+							<a href="javascript:;">
+								<img class="mui-media-object mui-pull-left" src="img/gdfbt.png">
+								<div class="mui-media-body" style="height: 40px;border-bottom: 1px solid #DBDBDB;">
+									幸福
+								</div>
+							</a>
+						</li>
+				
+					</ul>
+				</div>--> 
+				
+			</div>
+		</div>
+	</body>
+
+</html> 
+<script src="js/mui.min.js"></script>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/teamlist.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	mui.init()
+	var pingWidth=$(document.body).width();
+	var nameWidth=pingWidth-70;
+	$(".stall_pjname").css("width",nameWidth);
+	$(".stall_pjname").css("float","left");
+	$(".stall_fs").css({'height':'40px'});
+	
+	var win=$(window); //得到窗口对象   
+	var sc=$(document);//得到document文档对象。
+	win.scroll(function(){ 
+	  	if(sc.scrollTop()>=85){ 
+	  		$(".stall_tab").addClass("decorate_xd_fixed");
+	 	}else{
+	 		$(".stall_tab").removeClass("decorate_xd_fixed");
+	  	} 
+	});  
+	 
+	
+	$(".stall_one").click(function(){
+		var i = $(this).index(); 
+		$(this).addClass("active").siblings("a").removeClass("active");
+//      $(this).parent().siblings('.tab').children(".stall").eq(i).show().siblings().hide();  
+		
+	});
+	//跳转图库
+	$(".stall_tx").click(function(){
+		location.href="stallphoto.html" 
+	});
+</script> 

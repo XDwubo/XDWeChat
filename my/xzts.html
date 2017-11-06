@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>新增投诉</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/cui.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="tousu.css"/>
+		<style type="text/css">
+			.write_dairy{
+				padding: 18px 16px 0 16px;
+			} 
+			.write_dairynr span{
+				font-size: 0.32rem;
+				color: #272727;
+			}
+			.write_dairynr i{
+				font-style: normal;
+				font-size: 0.2rem; 
+				color: #c6c6c6;
+			}
+			.write_dairynr a{
+				float: right;
+				color: #00d4b6;
+				font-size: 0.24rem;
+			}
+			.write_sr{
+				margin-top: 10px;
+				width: 100%;
+				height:3.5rem;
+				/*overflow-y: hidden;*/
+			}
+		</style>  
+	</head>  
+
+	<body style="background-color: #fff;">
+		
+		<div class="mui-content" style="background-color: #fff;">  
+			 <div class="write_dairy">
+			 	
+			 	<div class="write_dairycont">
+			 		<div class="write_dairynr"><span>投诉内容</span><i>(200字内)</i> <a>清空内容</a></div>
+			 		<textarea class="write_sr" name="" rows="" cols="" placeholder="请尽可能清楚的描述你要投诉的内容"></textarea>
+			 	</div>
+			 	 
+			 	<div class="write_dairycont">
+			 		<div class="write_dairynr"><span>上传图片</span><i>(最多9张)</i></div>
+			 		<img style="width: 110px; margin-top: 10px;" src="../img/shangchuan.png"/>
+			 		
+			 	</div>
+			 	 
+			 	 
+			 </div> 
+			 
+			 <div class="complaint_fixed"> 
+				<a class="hb_bound">确定</a> 
+			</div> 
+			
+		</div>  
+	</body> 
+
+</html>
+<script src="../js/mui.min.js"></script>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	mui.init() 
+	
+	function clickCamera() {
+	    var c = plus.camera.getCamera();
+	    c.captureImage(function(e) {
+	        plus.io.resolveLocalFileSystemURL(e, function(entry) {
+	
+	            var path = entry.toLocalURL();
+	            var name = name = path.substr(e.lastIndexOf('/') + 1);
+	
+	            //压缩图片到内存
+	            plus.zip.compressImage({
+	                src: path,
+	                dst: '_doc/' + path,
+	                quality: 20,
+	                overwrite: true
+	            }, function(zip) {
+	                camera_photos.push({
+	                    path: zip.target
+	                });
+	                photos.push({
+	                    path: zip.target
+	                });
+	                showPhotos();
+	            }, function(error) {
+	                console.log("压缩error");
+	            });
+	
+	        }, function(e) {
+	            mui.toast("读取拍照文件错误" + e.message);
+	        });
+	    })
+	};
+
+</script>

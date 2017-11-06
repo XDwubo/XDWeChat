@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>装修图库</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/cui.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/progress.css"/>
+		<style type="text/css">
+			.zxtk_top{ 
+				padding: 0 16px; 
+				line-height: 45px;
+				overflow: auto;
+			} 
+			.zxtk_jz{ 
+				float: left;
+				font-size: 0.28rem;
+			}
+			.zxtk_px{
+				font-size: 0.3rem;
+				color: #00D4B6;
+				float: right;
+			}
+			.zxtk_number{
+				font-size: 0.24rem;
+				text-align: right;
+				color: #b6b6b6;
+			}
+			.zxtk_lb{
+				padding-top: 16px;
+				padding-bottom: 15px;
+			} 
+			.zxtk_wtp{
+				padding: 0 16px;
+				color: #b6b6b6;  
+				font-size: 0.3rem;
+				padding-top: 10px;
+			}
+		</style>  
+	</head>  
+
+	<body style="background-color: #fff;">
+		
+		<div class="mui-content" style="background-color: #fff;">
+			 <div class="zxtk_top">
+			 	<span class="zxtk_jz">截至今日，共20张装修图片</span>
+			 	<div class="zxtk_px">流程排序 <span class="iconfont icon-paixu"></span></div>
+			 </div>
+			 <div style="height: 10px;background-color: #ededed;"></div>
+			<div class="zxtk_lb">
+				<div class="speed_qr mui-row ">
+	 		 		<div class="mui-col-xs-10 speed_qr1"> 
+	 		 			<i class="speed_tits_span wc">装修流程1</i>
+	 		 			<span class="speed_gcqrsp"> 预约业主上门服务，制定装修报价预算确保 预算无增项漏项隐藏加价</span>
+	 		 		</div>   
+	 		 		<div class="mui-col-xs-2 zxtk_number"> 共0张</div> 
+	 			 </div>  
+	 			 
+ 		 		<div class="zxtk_wtp">此流程无装修图片</div>
+			</div> 
+			 <div style="height: 16px;background-color: #ededed;"></div>
+			<div class="zxtk_lb">
+				<div class="speed_qr mui-row ">
+	 		 		<div class="mui-col-xs-10 speed_qr1"> 
+	 		 			<i class="speed_tits_span wc">装修流程1</i>
+	 		 			<span class="speed_gcqrsp"> 预约业主上门服务，制定装修报价预算确保 预算无增项漏项隐藏加价</span>
+	 		 		</div>   
+	 		 		<div class="mui-col-xs-2 zxtk_number"> 共10张</div> 
+	 		 	</div> 
+	 		 	
+	 		 	<div class="mui-row picture" style="padding-left: 13px;">
+					<div class="mui-col-xs-4 picture_yl"><img class="sss" src="../img/xgt1.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl2.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl3.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl1.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl2.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl1.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl1.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl2.png" data-preview-src="" data-preview-group="1"/></div>
+					<div class="mui-col-xs-4 picture_yl"><img src="../img/yl3.png" data-preview-src="" data-preview-group="1"/></div>
+				</div> 
+	 		 	
+			</div>
+			 <div style="height: 10px;background-color: #ededed;"></div>
+			 <!--返回顶部-->
+			 <div class="fh_top">
+			 	<img src="../img/top.png"/>
+			 </div>
+		</div>
+	</body> 
+ 
+</html>
+<script src="../js/mui.min.js"></script>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	mui.init()  
+	mui("body").on("tap",".fh_top",function(){
+			mui.scrollTo(0,100); 
+		});
+	var rowWidth=$(".picture_yl").width();
+	$(".picture_yl img").css("height",rowWidth); 
+</script>

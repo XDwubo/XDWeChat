@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>材料清单</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/cui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<style type="text/css">
+			p{
+				margin: 0 !important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			
+			
+			<ul>
+				<div class="materials"> 
+					<span>客餐厅</span><a>共<i>2</i>项材料</a> 
+				</div>  
+				<li>
+					<div class="materials_nav">
+						<div class="materials_list"> 
+							<a href="cldetails.html">
+								<div class="materials_list_left">
+									<img src="img/yl2.png"/> 
+								</div> 
+								<div class="materials_list_right">
+									<div class="mui-ellipsis-2">圣象强化复合橡木地板  F4星  11mm  环保耐用小浮雕强化复合木地板NT2</div>
+									<p class="mui-ellipsis">备注<i>上门安装包含收边条、防潮膜、防潮胶垫安装</i></p> 
+									<p>单位<i>片</i></p>
+									<p>数量<a>20</a></p> 
+									<p>单价<span>40.00</span></p> 
+								</div>   
+							</a>
+						</div>
+						
+						<div class="materials_list">
+							<a href="cldetails.html">
+								<div class="materials_list_left">
+									<img src="img/yl2.png"/> 
+								</div> 
+								<div class="materials_list_right">
+									<div class="mui-ellipsis-2">圣象强化复合橡木地板  F4星  11mm  环保耐用小浮雕强化复合木地板NT2</div>
+									<p class="mui-ellipsis">备注<i>上门安装包含收边条、防潮膜、防潮胶垫安装</i></p> 
+									<p>单位<i>片</i></p>
+									<p>数量<a>20</a></p> 
+									<p>单价<span>40.00</span></p> 
+								</div>   
+							</a>
+						</div> 
+					</div>
+				</li>
+				
+				<div class="materials" style="margin-top: 20px;"> 
+					<span>客餐厅</span><a>共<i>2</i>项材料</a> 
+				</div>  
+				
+				<li>
+					<div class="materials_nav">
+						<div class="materials_list"> 
+							<a href="cldetails.html">
+								<div class="materials_list_left">
+									<img src="img/yl2.png"/> 
+								</div> 
+								<div class="materials_list_right">
+									<div class="mui-ellipsis-2">圣象强化复合橡木地板  F4星  11mm  环保耐用小浮雕强化复合木地板NT2</div>
+									<p class="mui-ellipsis">备注<i>上门安装包含收边条、防潮膜、防潮胶垫安装</i></p> 
+									<p>单位<i>片</i></p>
+									<p>数量<a>20</a></p> 
+									<p>单价<span>40.00</span></p> 
+								</div>   
+							</a>
+						</div>
+						
+						<div class="materials_list">
+							<a href="cldetails.html">
+								<div class="materials_list_left">
+									<img src="img/yl2.png"/>  
+								</div> 
+								<div class="materials_list_right">
+									<div class="mui-ellipsis-2">圣象强化复合橡木地板  F4星  11mm  环保耐用小浮雕强化复合木地板NT2</div>
+									<p class="mui-ellipsis">备注<i>上门安装包含收边条、防潮膜、防潮胶垫安装</i></p> 
+									<p>单位<i>片</i></p>
+									<p>数量<a>20</a></p> 
+									<p>单价<span>40.00</span></p> 
+								</div>   
+							</a> 
+						</div>
+					</div>
+				</li>
+			</ul>
+			
+			
+			<!--浮动--> 
+			<ul class="fd_nav" style="display: none;">
+				<li class="fd_list">客餐厅</li>
+				<li class="fd_list">主卧</li>
+				<li class="fd_list">次卧</li>
+				<li class="fd_list">次卧2</li>
+				<li class="fd_list">厨房</li>
+				<li class="fd_list">卫生间</li>
+				<li class="fd_list">阳台</li>
+				<div></div>
+			</ul>
+			
+			<div class="fjfd fdxs"> 
+				<img src="img/fjfd.png"/>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
+<script src="js/mui.min.js"></script>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	mui.init()
+	
+	$(".fjfd").click(function(){
+		if($(this).is(".fdxs")){ 
+			$(this).removeClass("fdxs");
+			$('.fd_nav').css("display","block");
+			$(this).attr("src","img/gbfd.png")
+		}else{
+			$(this).addClass("fdxs");
+			$('.fd_nav').css("display","none");
+			$(this).attr("src","img/gbfd.png") 
+		}
+	}); 
+</script>       

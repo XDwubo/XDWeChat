@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>装修图库</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/cui.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/progress.css"/>
+		<style type="text/css">
+			.bj{
+				height: 100%; 
+				background: url(../img/tuijianmabg.png) no-repeat;
+				background-size:100% 100% ;
+				padding: 65px 40px 35px 40px;
+			} 
+			.ewm{ 
+				margin: auto; 
+				width: 260px;
+				height: 405px;
+				background: url(../img/tuijianmabiankuang.png) no-repeat;
+				background-size:100% 100% ; 
+				background-color: #fff;
+				padding: 0 33px;
+			}
+			.ewm_tit{
+				text-align: center;
+				padding-top: 13px;
+				color: #DBDBDB;
+				margin: auto;
+				font-size: 0.20rem;
+			}
+			.ewmxsj{ 
+				padding-top: 8px;
+			}
+			.ewmtx{
+				height: 20px;
+				width: 20px;
+				border-radius:100% ;
+				border: 1px solid #DBDBDB;
+				margin:16px auto;
+			}
+			.dyname{
+				text-align: center;
+				font-size: .28rem;
+			}
+			.dyname a{
+				color: #00D4B6;
+			}
+			.ewmdy{
+				font-size: 0.20rem;
+				text-align: center;
+			}
+			.ewms{
+				width: 167px;
+				height: 167px;
+				margin:8px auto;
+			}
+			.zsewm{
+				text-align: center;
+				color: #00D4B6;
+				font-size: 0.24rem;
+			}
+			.bcewm{
+				font-size: 0.24rem;
+				text-align: center;
+				color: #c8bec1;
+				margin-top: 35px;
+			}
+			.bc_btn{
+				width: 190px;
+				height: 40px;
+				background:linear-gradient(to right,#00d4b6, #00bfc1) ;
+				border-radius:40px ;
+				text-align: center;
+				line-height: 40px;
+				color: #fff;
+				margin: auto;
+				margin-top: 16px;
+				margin-bottom: 32px;
+			}
+		</style>  
+	</head>  
+ 
+	<body>   
+		<div class="bj">
+			<div class="ewm">
+				<div class="ewm_tit">
+					小钉科技
+					<div class="ewmxsj"><img class="imgwh" src="../img/tuijianmaline.png"/></div>
+				</div>
+				<div class="ewmtx">
+					<img class="imgwh" src="../img/rztx.png"/>
+				</div> 
+				<div class="dyname">我是<a>马云</a></div>
+				<div class="ewmdy">我为小丁科技装饰有限公司代言</div>
+				<div class="ewms"><img class="imgwh" src="../img/ewm.png"/></div>
+				<div class="zsewm">
+					刘娜妮的专属推荐码
+				</div>
+				<div class="zxd">装修就找小钉科技装饰有限公司 </div>
+				<div class="zxd">质量过硬，服务周到</div>
+			</div>
+			
+			<div class="bcewm">保存二维码，推荐朋友装修，赢得推荐奖励</div>
+			<div class="bc_btn">保存二维码</div>
+		</div>  
+		
+			
+	</body> 
+ 
+</html>
+<script src="../js/mui.min.js"></script>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	mui.init()  
+	mui("body").on("tap",".fh_top",function(){
+			mui.scrollTo(0,100); 
+		});
+	var rowWidth=$(".picture_yl").width();
+	$(".picture_yl img").css("height",rowWidth); 
+</script>
